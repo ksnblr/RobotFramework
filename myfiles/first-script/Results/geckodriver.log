@@ -1,0 +1,75 @@
+1553025369640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\XKK\\AppData\\Local\\Temp\\rust_mozprofile.N4nUYUF2EhuK"
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+1553025371193	Marionette	INFO	Listening on port 61685
+1553025371258	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 26008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19148, C[Parent 26008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x540027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 4576, Chrome_
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ChildTh
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+read] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/sr[Parent 26008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32760, Chrome_C
+###!!! [Parent][MessageChannel] Error: (msgtype=0x8000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 24560, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1553025515032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\XKK\\AppData\\Local\\Temp\\rust_mozprofile.TprAMLwPgGNb"
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+1553025516567	Marionette	INFO	Listening on port 61787
+1553025516646	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 21596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21596, ChrIPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 29392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 29392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 32164, Chro*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 5296, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1553028209918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\XKK\\AppData\\Local\\Temp\\rust_mozprofile.cJMqV3bASaxR"
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\XKK\AppData\Local\openvr\openvrpaths.vrpath
+1553028211439	Marionette	INFO	Listening on port 63698
+1553028211550	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 30120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29176, [Parent 30120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29392, Chrome_ChildThre
+###!!! [Parent][MessageChannel] Error: (msgtype=0x8000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 30120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3134*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 13552, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
