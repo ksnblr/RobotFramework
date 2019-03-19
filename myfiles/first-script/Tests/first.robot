@@ -27,4 +27,12 @@ User must secure in to check out
     Page Should Contain     Cart
     Close Browser
 
+User must Login in to check out
+    [Documentation]  This is some basic info about the test
+    [Tags]  Detailed
+    Open Browser  ${URL}  ${BROWSER}
+    Sleep   ${SLEEP}
+    Page Should Contain     Cart
+    Close Browser
+
 *** Keywords ***

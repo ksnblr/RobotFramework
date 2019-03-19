@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e0d079f-d0e0-4c45-96d5-69ea568de470" name="Default Changelist" comment="" />
+    <list default="true" id="9e0d079f-d0e0-4c45-96d5-69ea568de470" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/myfiles/first-script/Tests/first.robot" beforeDir="false" afterPath="$PROJECT_DIR$/myfiles/first-script/Tests/first.robot" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myfiles/first-script/Tests/first.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="525">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="e#0#102#0" expanded="true" />
               </folding>
@@ -165,6 +167,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17492098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -212,8 +215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myfiles/first-script/Tests/first.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="525">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="e#0#102#0" expanded="true" />
           </folding>
