@@ -27,7 +27,7 @@ User must secure in to check out
     Page Should Contain     Cart
     Close Browser
 
-User must Login in to check out
+User must Login in to check out the item
     [Documentation]  This is some basic info about the test
     [Tags]  Detailed
     Open Browser  ${URL}  ${BROWSER}
