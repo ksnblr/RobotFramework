@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.1 (Python 3.7.2 on win32)" generated="20190319 16:43:25.838" rpa="false">
-<suite id="s1" name="First" source="D:\users\xkk\pub_GH\Robot_Framework\myfiles\first-script\Tests\first.robot">
+<robot generator="Robot 3.1.1 (Python 3.7.2 on win32)" generated="20190319 17:06:56.406" rpa="false">
+<suite id="s1" name="First" source="D:\users\xkk\pub_GH\Robot_Framework\myfiles\first-script\tests\first.robot">
 <test id="s1-t1" name="User must sign in to check out">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -8,48 +8,85 @@
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190319 16:43:26.109" level="INFO">Opening browser 'ff' to base url 'http://www.amazon.com'.</msg>
-<status status="PASS" starttime="20190319 16:43:26.109" endtime="20190319 16:43:36.521"></status>
+<msg timestamp="20190319 17:06:56.689" level="INFO">Opening browser 'ff' to base url 'http://www.amazon.com'.</msg>
+<status status="PASS" starttime="20190319 17:06:56.689" endtime="20190319 17:07:05.511"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>${SLEEP}</arg>
 </arguments>
-<msg timestamp="20190319 16:43:39.524" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20190319 16:43:36.522" endtime="20190319 16:43:39.524"></status>
+<msg timestamp="20190319 17:07:08.513" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190319 17:07:05.511" endtime="20190319 17:07:08.513"></status>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <doc>Verifies that current page contains ``text``.</doc>
 <arguments>
 <arg>Cart</arg>
 </arguments>
-<msg timestamp="20190319 16:43:39.563" level="INFO">Current page contains text 'Cart'.</msg>
-<status status="PASS" starttime="20190319 16:43:39.524" endtime="20190319 16:43:39.563"></status>
+<msg timestamp="20190319 17:07:08.545" level="INFO">Current page contains text 'Cart'.</msg>
+<status status="PASS" starttime="20190319 17:07:08.513" endtime="20190319 17:07:08.545"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190319 16:43:39.563" endtime="20190319 16:43:40.874"></status>
+<status status="PASS" starttime="20190319 17:07:08.547" endtime="20190319 17:07:09.745"></status>
 </kw>
 <doc>This is some basic info about the test</doc>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="PASS" starttime="20190319 16:43:26.108" endtime="20190319 16:43:40.875" critical="yes"></status>
+<status status="PASS" starttime="20190319 17:06:56.688" endtime="20190319 17:07:09.746" critical="yes"></status>
+</test>
+<test id="s1-t2" name="User must secure in to check out">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190319 17:07:09.748" level="INFO">Opening browser 'ff' to base url 'http://www.amazon.com'.</msg>
+<status status="PASS" starttime="20190319 17:07:09.748" endtime="20190319 17:07:18.312"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${SLEEP}</arg>
+</arguments>
+<msg timestamp="20190319 17:07:21.314" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190319 17:07:18.312" endtime="20190319 17:07:21.314"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Cart</arg>
+</arguments>
+<msg timestamp="20190319 17:07:21.343" level="INFO">Current page contains text 'Cart'.</msg>
+<status status="PASS" starttime="20190319 17:07:21.314" endtime="20190319 17:07:21.343"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20190319 17:07:21.344" endtime="20190319 17:07:22.605"></status>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tags>
+<tag>Detailed</tag>
+</tags>
+<status status="PASS" starttime="20190319 17:07:09.747" endtime="20190319 17:07:22.606" critical="yes"></status>
 </test>
 <doc>This is some basic info about the whole suite</doc>
-<status status="PASS" starttime="20190319 16:43:25.846" endtime="20190319 16:43:40.876"></status>
+<status status="PASS" starttime="20190319 17:06:56.414" endtime="20190319 17:07:22.607"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="1" fail="0">Detailed</stat>
 <stat pass="1" fail="0">Smoke</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="First">First</stat>
+<stat pass="2" fail="0" id="s1" name="First">First</stat>
 </suite>
 </statistics>
 <errors>
